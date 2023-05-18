@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./weather.css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <title>| Weather |</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">   
+          <input type="text" class="search" placeholder="Search"/>
+          <form action="" class="form">
+            <input type="submit" class="button">
+          </form>  
+        <div class="box">
+          <div class="box1">
+            <div class="lat-lon">
+            <h2 class="lat">Latitude: </h2>
+            <h2 class="lon">Longitude: </h2>
+            </div>
+            <div class="feels-like">
+                <div class="feels1">
+                    <!-- <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="" class="img-items"> -->
+                </div>
+                <div class="feels2">
+                    <h1 class="kelvin">0&deg K</h1>
+                    <p class="fl">HAZE</p>
+                </div>
+            </div>
+            <div class="humidity">
+                <h1 class="hum">HUMIDITY: </h1>
+            </div>
+          </div>
+
+          <div class="box2">
+              <div class="wind">
+                <div class="wind-speed">
+                    <h3>Wind Speed</h3><i class="fa-solid fa-window-minimize"></i>
+                    <p class="ws">0 knots</p>
+                </div>
+                <div class="wind-direction">
+                    <h3>Wind Direction</h3><i class="fa-solid fa-window-minimize"></i>
+                    <p class="wd">0&deg</p>
+                </div>
+              </div>
+              <div class="sunrise">
+                    <img src="./img/36433668-removebg-preview.png" alt="">
+                    <div class="sunrise-time">
+                        <h2>Sunrise</h2>
+                        <p class="st">00:00 UTC</p>
+                    </div>
+                    
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 64.5%;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #f5d9fa;
+}
+
+.header{
+    border-bottom: 2px solid black;
+    text-align: center;
+    height: 4rem;
+}
+.header h2{
+    font-size: 3rem;
+    margin: auto;
+}
+/* .main{
+    border: 2px solid red;
+} */
+
+.joke-box{
+    width: 40%;
+    margin: 10rem auto 0 auto;
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.joke-box h5{
+    margin: 1.5rem 0;
+}
+.btn{
+    display: block;
+    margin: 1rem auto 0 auto;
+    background-color: black;
+    color: white;
+}
+
+@media(min-width:501px) and (max-width: 768px){
+    .joke-box{
+        width: 70%;
+        margin: 10rem auto 0 auto;
+        padding: 1.5rem;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+@media(max-width:500px){
+    .joke-box{
+        width: 80%;
+        margin: 5rem auto 0 auto;
+        padding: 1.5rem;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+}

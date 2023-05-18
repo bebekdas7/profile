@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PortFolio</title>
+</head>
+<body>
+
+<!-- -------------------------------------- NAVBAR -------------------------------------------------- -->
+
+    <nav class="container-fluid nav">
+        <div class="container hide-items">
+            <ul>
+            <li class="navitems p-2"><a href="#home" class="links">home</a></li>    
+            <li class="navitems p-2"><a href="#about" class="links">about</a></li>
+            <li class="navitems p-2"><a href="#projects" class="links">project</a></li>
+            <li class="navitems p-2"><a href="#contact" class="links">contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+        <input type="checkbox" name="" id="">
+        <i class="fa-solid fa-bars ham-i1"></i>
+        <i class="fa-solid fa-xmark ham-i2"></i>
+        <ul class="menu-items">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contact</a>
+        </ul>
+    </div>
+    </nav>
+
+<!-- -------------------------------------- DETAILS -------------------------------------------------- -->
+
+<div class="container-fluid" id="home">
+    <div class="container detail">
+        <div class="name">
+            <h1>Hi, My Name Is <span style="color: #D14D72;">VIVEK</span></h1>
+            <h4><span style="color: #FFABAB;">PROGRAMMER!</span></h4>
+            <h4><span style="color: #FFABAB;">DEVELOPER!</span></h4>
+            <h4><span style="color: #FFABAB;">DESIGNER!</span></h4>
+        </div>
+
+        <div class="pic">
+            <div class="pic-circle">
+                <!-- here is the pic inherited from css -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------- ABOUT -------------------------------------------------- -->
+
+<div class="container-fluid" id="about">
+    <div class="container about">
+        <div class="explain">
+            <h5>About Me</h5>
+            <p>Hey there, I'm Vivek das, a third-year BSc IT student who's passionate about web development. I love building new websites and projects from scratch, even though I'm not a professional designer. I'm determined to become a full-stack developer.
+            I'm a problem solver who enjoys tackling challenges and finding innovative solutions. In my free time, I work on personal projects. I'm committed to lifelong learning and staying up-to-date with the latest trends in web development. Overall, I'm a dedicated and driven individual who's always eager to learn and improve. Thanks for reading!</p>
+        </div>
+        <div class="skills">
+            <h5>Skills</h5>
+            <p>HTML:</p>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="background-color: #FFABAB; width: 80%;">
+                </div>
+            </div>
+            <p>CSS:</p>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="background-color: #FFABAB; width: 75%;">
+                </div>
+            </div>
+            <p>JAVASCRIPT:</p>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="background-color: #FFABAB; width: 65%;">
+                </div>
+            </div>
+            <p>BOOTSTRAP:</p>
+            <div class="progress mb-3">
+                <div class="progress-bar" style="background-color: #FFABAB; width: 75%;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------- PROJECTS -------------------------------------------------- -->
+
+<div class="container-fluid pt-5" id="projects">
+    <div class="container projects">
+        <h2 class="pt-2">My Projects</h2>
+        <div class="projects-list mt-4">
+            <a href="./weather/weather.html" target="_blank" class="pj">
+                <img src="./img/weather.jpg" alt="">
+            </a>
+            <a href="./quiz/quiz.html" target="_blank" class="pj">
+                <img src="./img/quiz.jpg" alt="">
+            </a>
+            <a href="./jokesAPI/jokes.html" target="_blank" class="pj">
+                <img src="./img/jokes.jpeg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------- CONTACT -------------------------------------------------- -->
+
+<div class="container-fluid pt-4">
+    <div class="container contact" id="contact">
+        <div class="contact-pic">
+            <img src="./img/contact.png" alt="">
+        </div>
+        <div class="contact-form">
+            <h3 class="pt-2">Connect Me!</h3>
+            <p class="pt-4">Send Me A Mail</p>
+            <a href="mailto:bebekdas7@gmail.com" target="_blank" title="mail" class="btn mt-1">
+                <i class="fa-solid fa-envelope fa-flip fa-xl"></i>
+            </a><br>
+            <p class="pt-1">Connect Through Call</p>
+            <a href="tel:+7218022941" target="_blank" title="call" class="btn mt-1">
+                <i class="fa-solid fa-phone fa-shake fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com/24.9_02/" target="_blank">
+                <i class="fa-brands fa-instagram fa-2xl insta"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bebek-das-b0ba26183/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2xl linkedin"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------------------- CONTACT -------------------------------------------------- -->
+
+<footer class="container-fluid footer">
+    <h4>Thank You For Visiting!❤</h4>
+</footer>
+
+</body>
+</html>
